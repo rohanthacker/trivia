@@ -1,0 +1,21 @@
+.game-timer {
+	height: 0.5rem;
+	width: 100%;
+	background-color: blueviolet;
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 0;
+}
+
+.game-timer::after {
+	position: absolute;
+	top: 0;
+	left: 0;
+	content: "";
+	display: block;
+	height: 0.5rem;
+	width: 80%;
+	background-color: blue;
+	z-index: 1;
+}
